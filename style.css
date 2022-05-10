@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    box-sizing: border-box;
+    border-style: groove;
+    background-color: black;
+    height: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-lists{
+    display: flex;
+    flex-direction: row;
+}
+.nav-links{
+    padding-right: 100px;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.lists > li{
+    padding-right: 25px;
+}
+.listed-links{
+    text-decoration: none;
+    color: gray;
+    font-size: 120%;
+    transition: all ease-in-out 0.1s;
+}
+#context{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    margin-left: 100px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-style: groove;
+    height: 250px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    width: 60%;
+}
+h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+p{
+    padding-left: 30px;
+}
+.sidebar{
+    box-sizing: border-box;
+    border-style: groove;
+    background-color: gainsboro;
+    width: 15%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+h5{
+    margin: 10px;
+}
+.links{
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+}
+button{
+margin-left: 30px;
+margin-top: 10px;
+}
+.line{
+    border:1px solid gray;
+    position: relative;
+    width:1000px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.ending{
+    margin-left: 150px;
+}
