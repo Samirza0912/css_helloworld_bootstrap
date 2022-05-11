@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    background-color: #2C3E50;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    margin-left: 120px;
+}
+
+.logotitle {
+    font-weight: 700;
+    font-size: 33px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar {
+    margin-right: 150px;
+}
+
+.nav-links {
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+
+.nav-link:nth-child(3) {
+    margin-right: 0;
+}
+#start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #1abc9c;
+    height: 600px;
+    padding-top: 90px;
+}
+h1{
+    color: #ffffff;
+    font-size: 60px;
+    padding-top: 20px;
+}
+h3{
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#portfolio{
+    background-color: rgb(253, 251, 251);
+}
+p{
+    color:green;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.h{
+    color: black;
+    text-align: center;
+
+}
+
+.ab{
+    text-align: center;
+    padding-top: 80px;
+}
+.decor{
+    color: #2C3E50;
+    text-align: center;
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#about{
+    background-color: #1abc9c;;
+    margin-top: 50px;
+    height: 600px;
+}
+.context{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.frrow{
+    display: flex;
+    flex-direction: row;
+}
+.scrow{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    box-sizing: border-box;
+    border-style: groove;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 50px;
+    margin-left: 550px;
+    color: green;
+}
+#contact{
+    height: 600px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Full_Name{
+    width: 500px;
+    margin-left: 400px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#Email{
+    width: 500px;
+    margin-left: 400px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#Phone{
+    width: 500px;
+    margin-left: 400px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#Message{
+    width: 500px;
+    margin-left: 400px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+#send{
+    box-sizing: border-box;
+    border-style: groove;
+    width: 70px;
+    margin-left: 400px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: green;
+}
+.co{
+    text-align: center;
+    margin-top: 80px;
+}
+.ch{
+    color: black;
+}
+.th{
+    color: black;
+}
